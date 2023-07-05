@@ -1,12 +1,12 @@
 # javohir
-a = int(input("a="))
+a = int(input("raqam kiriting:"))
 if a == 0:
-    print("son nolga teng")
+    print("bu son nolga teng")
 elif a > 0 and a % 2 ==0:
-    print("musbat juft son")
+    print("bu musbat juft son")
 elif a > 0 and a % 2 == 1:
-    print("musbat toq son")
-elif a<0 and abs(a) % 2 == 0:
-    print("manfiy juft son")
-else:
-    print("manfiy toq son")
+    print("bu musbat toq son")
+elif a < 0 and abs(a) % 2 == 0:
+    print("bu manfiy juft son")
+elif a < 0 and abs(a) % 2 == 1:
+    print("bu manfiy toq son")
