@@ -1,0 +1,20 @@
+friends  = []
+friends.append("Mirzohid")
+friends.append("Ali")
+friends.append("Sohib")
+print(friends)
+friends.remove("Ali")
+print(friends)
+friends.insert(0,"Dilnur")
+friends.insert(-1,"Mirbek")
+friends.append("Sardor")
+print(friends)
+mehmonlar = []
+mehmonlar.append(friends.pop(0))
+mehmonlar.append(friends.pop(0))
+mehmonlar.append(friends.pop(0))
+mehmonlar.append(friends.pop(0))
+mehmonlar.append(friends.pop(0))
+# mehmonlar.extend(friends) 
+print(mehmonlar)
+
